@@ -1,0 +1,22 @@
+{
+  "name": "cypress-issue-23255",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "workaround": "cypress run --spec cypress/e2e/workaround.cy.js --headed --no-exit --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtofStryker/cypress-issue-23255.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AtofStryker/cypress-issue-23255/issues"
+  },
+  "homepage": "https://github.com/AtofStryker/cypress-issue-23255#readme",
+  "devDependencies": {
+    "cypress": "^10.4.0"
+  }
+}
